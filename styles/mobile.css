@@ -15,6 +15,23 @@
         url('../fonts/OpenSans-Bold.eot') format('embedded-opentype');
 }
 
+#indexDatePicker1,
+#indexEditbox1 {
+  position: relative;
+  left: initial;
+  top: initial;
+  background-image: none;
+  border: 1px solid #dcdcdc;
+  border-radius: 40px;
+  text-align: center;
+  padding: 5px 0;
+  box-shadow: inset 1px 1px 3px 0 rgba(0, 0, 0, 0.2);
+  line-height: 15px;
+  font-size: 15px;
+  width: initial;
+  height: initial;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -257,6 +274,12 @@ form .form_afterword {
 }
 
 /* ABOUT */
+
+
+.about img, .general img {
+    margin-top: 10px;
+    width: 90%;
+}
 
 .about_list {
     padding: 10px 30px;
@@ -537,7 +560,7 @@ form .form_afterword {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 .contacts_container a {
@@ -616,3 +639,4 @@ form .form_afterword {
         max-width: 140px;
     }
 }
+
