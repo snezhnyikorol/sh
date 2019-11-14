@@ -66,7 +66,7 @@ section {
 }
 
 .btn {
-    padding: 20px 30px;
+    padding: 15px 15px;
     cursor: pointer;
     background-image: linear-gradient(#f7b0b0, #fa7f81);
     border-radius: 200px;
@@ -143,7 +143,7 @@ form input {
 form button {
     cursor: pointer;
     background-image: linear-gradient(#f7b0b0, #fa7f81);
-    padding: 20px 30px;
+    padding: 15px 15px;
     border-radius: 200px;
     border: 1px solid #fa7f81;
     font-family: Arial;
@@ -218,7 +218,7 @@ form .form_afterword {
     font-weight: bold;
     background-color: #FF8887;
     border-radius: 10px;
-    padding: 10px 5px 20px 5px;
+    padding: 20px 5px 20px 5px;
     box-shadow: 0 0 2em 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -345,4 +345,99 @@ form .form_afterword {
 
 .price {
     background-color: #EAEFF3;
+}
+
+.price_card {
+    margin: 10px 30px;
+}
+
+.price_title {
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #FF8887;
+    border-radius: 10px;
+    padding: 20px 5px 20px 5px;
+    box-shadow: 0 0 2em 0 rgba(0, 0, 0, 0.2);
+}
+
+.price_list {
+    background-color: #FDFDFD;
+    list-style-type: none;
+    position: relative;
+    top: -15px;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    box-shadow: 0 0 2em 0 rgba(0, 0, 0, 0.2);
+}
+
+.price_item:before {
+    color: #808080;
+    font-family: Open Sans;
+    font-size: 17px;
+    content: '-';
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.price_banner {
+    color: #FF8887;
+    padding: 10px 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.price .btn {
+    margin: 10px 10px;
+}
+
+/* HELP */
+
+.help {
+
+}
+
+.how_list {
+    counter-reset: counter;
+    margin: 10px 30px;
+}
+
+.how_item {
+    list-style: none;
+}
+
+.how_item:before {
+    counter-increment: counter;
+    content: counter(counter);
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FF8887;
+    position: relative;
+    top: 3px;
+}
+
+@media screen and (max-width: 426px) {
+    form, .general_benefits, .help_card,
+    .method_card, .price_card {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .method_card-title {
+        font-size: 20px;
+    }
+
+    .section_title {
+        font-size: 25px;
+    }
+
+    .subtitle, .price_subtitle {
+        font-size: 16px;
+    }
+
+    .form_title {
+        font-size: 18px;
+    }
 }
