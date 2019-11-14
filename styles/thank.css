@@ -1,0 +1,102 @@
+div#container
+{
+   width: 1120px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   background-image: url(../images/back3.jpg);
+   background-attachment: scroll;
+   background-position: left top;
+   background-repeat: repeat-y;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#page1Layer1
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_indexText52 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_indexText52 div
+{
+   text-align: center;
+}
+#wb_uid0
+{
+   color: #000000;
+   font-family: Arial;
+   font-size: 29px;
+}
+#wb_indexText52
+{
+   position: absolute;
+   left: 0px;
+   top: 59px;
+   width: 1120px;
+   height: 34px;
+   text-align: center;
+   z-index: 0;
+}
+#TM-M37KPHN
+{
+   display: none;
+   visibility: hidden;
+}
+#page1Layer1
+{
+   position: absolute;
+   text-align: center;
+   left: 0px;
+   top: 167px;
+   width: 100%;
+   height: 302px;
+   z-index: 2;
+}
+#page1Layer1_Container
+{
+   width: 1120px;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+#page14Html1
+{
+   position: absolute;
+   left: 446px;
+   top: 178px;
+   width: 100px;
+   height: 100px;
+   z-index: 1;
+}
+   .yButton{
+      position: absolute!important;
+   }
+   .yButton.right{
+      left: 47%!important;
+      top: 50%!important;
+   }
+@media (max-width: 1100px) {
+.yButton{
+-ms-transform: scale(4, 4);
+-webkit-transform: scale(4, 4);
+transform: scale(4, 4);
+}
+}

@@ -1,0 +1,120 @@
+#indexLayer1,
+#wb_indexText3,
+#wb_indexText4,
+#wb_indexText5,
+#wb_indexText206,
+#wb_indexText16,
+#wb_indexText17,
+#wb_indexText18,
+#wb_indexText19,
+#wb_indexText20,
+#wb_indexText11,
+#wb_indexText12,
+#wb_indexText13,
+#wb_indexText14,
+#wb_indexText15,
+#wb_indexText10,
+#wb_indexForm1,
+#wb_indexText6,
+#wb_indexText7,
+#wb_indexText8,
+#wb_indexText9,
+#indexHtml1,
+#wb_indexText53,
+#wb_indexText1,
+#indexRollOver1,
+#wb_indexImage2,
+#wb_indexImage1,
+#wb_indexShape13,
+#wb_indexImage54,
+#wb_indexText2,
+#wb_indexShape11 {
+  position: relative;
+  left: initial;
+  top: initial;
+  width: initial;
+  height: auto;
+}
+form {
+  box-shadow: 0 0 2em 0 rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  padding: 20px 40px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+form div {
+  margin-top: 10px;
+}
+form button {
+  margin: 10px 0;
+}
+form input {
+  margin-top: 5px!important;
+}
+#indexDatePicker1,
+#indexEditbox1 {
+  position: relative;
+  left: initial;
+  top: initial;
+}
+#wb_indexText16,
+#wb_indexText17,
+#wb_indexText18,
+#wb_indexText19,
+#wb_indexText20 {
+  display: none;
+}
+#indexLayer1 {
+  background-image: none;
+  background-color: #DBE0E4;
+  width: 100%;
+}
+#indexLayer1 #indexLayer1_Container {
+  width: 100%;
+  max-width: 540px;
+}
+#wb_uid20,
+#wb_uid23 {
+  font-size: 26px;
+}
+#wb_indexText4 {
+  margin-top: 10px;
+}
+#wb_indexText4 h1 {
+  line-height: 0.7;
+}
+#wb_indexText4 h1 #wb_uid21 {
+  font-size: 19px;
+}
+#wb_indexText5 {
+  margin-top: 30px;
+}
+#wb_indexText10 {
+  margin-bottom: 30px;
+}
+#wb_indexText11,
+#wb_indexText12,
+#wb_indexText13,
+#wb_indexText14,
+#wb_indexText15 {
+  background-color: #FBECE5;
+  padding: 5px 10px;
+}
+#wb_indexText11 span::before,
+#wb_indexText12 span::before,
+#wb_indexText13 span::before,
+#wb_indexText14 span::before,
+#wb_indexText15 span::before {
+  color: #B49783;
+  font-size: 27px;
+  content: '+';
+  position: relative;
+  top: 4px;
+  margin-right: 5px;
+}
+#indexLayer2 {
+  display: none;
+}
