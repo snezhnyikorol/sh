@@ -4,15 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./scripts/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./scripts/slick/slick-theme.css"/>
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/text.css">
     <link rel="stylesheet" href="./styles/mobile.css">
+    <script src="./scripts/jquery-1.7.2.min.js"></script>
     <title>Online консультации психолога Андрея Шершеня по России  и Казахстану</title>
 </head>
 <body>
-    <div class="mobile-header">
+    <div class="mobile_header">
         <div class="container">
-
+            <div class="logo_container">
+                <img src="./images/logo.png" alt="" class="logo">
+                <p class="logo_text">Online консультация психолога по России и Казахстану</p>
+            </div>
+            <div class="contacts_container">
+                <div class="number">
+                    <img src="./images/rus.png" alt="">
+                    <a href="tel:+79160657403">+79160657403</a>
+                </div>
+                <div class="skype">
+                    <img src="./images/skype.png" alt="">
+                    <a href="https://join.skype.com/invite/ejbAssPMkamj">an.shershen</a>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -50,6 +66,7 @@
                 <p class="subtitle">Специализируюсь на решении следующих проблем:</p>
                 <div class="help_card">
                     <h4 class="help_card-subtitle">Сложные эмоциональные состояния</h4>
+                    <img src="images/zcient1.png" alt="" class="help_img">
                     <ul class="help_card-list">
                         <li class="help_card-item">Панические атаки, тревоги, бессонницы</li>
                         <li class="help_card-item">Переживание горя, утрат и предательства</li>
@@ -63,6 +80,7 @@
                 </div>
                 <div class="help_card">
                     <h4 class="help_card-subtitle">Личные и семейные проблемы</h4>
+                    <img src="images/zcient2.png" alt="" class="help_img">
                     <ul class="help_card-list">
                         <li class="help_card-item">Не складывается личная жизнь (одиночество, повторяющиеся неудачи)</li>
                         <li class="help_card-item">Переживание расставания (эмоциональные потрясения и измены, неспособность оставить отношения в прошлом, чувство вины и боязнь новых отношений)</li>
@@ -73,6 +91,7 @@
                 </div>
                 <div class="help_card">
                     <h4 class="help_card-subtitle">Неуверенность в себе и личностное развитие</h4>
+                    <img src="images/zcient3.png" alt="" class="help_img">
                     <ul class="help_card-list">
                         <li class="help_card-item">Отсутствие уверенности в себе</li>
                         <li class="help_card-item">Возрастные кризисы</li>
@@ -103,7 +122,6 @@
             <div class="container">
                 <h2 class="section_title">Психолог Андрей Шершень</h2>
                 <p class="subtitle">Рад знакомству с Вами</p>
-                <!-- Слайдер? -->
                 <ul class="about_list">
                     <li class="about_item">Занимаюсь практической психологией более 7 лет</li>
                     <li class="about_item">Помогаю разбирать волнующие ситуации в любой жизненной сфере и эффективно решать их</li>
@@ -116,12 +134,67 @@
                 <a href="" class="btn">Записаться на консультацию без оплаты</a>                
             </div>
         </section>
-        <!-- <section class="education">
+        <section class="education">
             <div class="container">
                 <h2 class="section_title">Образование и сертификаты</h2>
-             
+                <div class="edu_slider">
+                    <div class="edu_item">
+                        <img src="images/tn_1s.png" alt="">
+                        <h4>Практикующий специалист по нейролингвистическому программированию</h4>
+                        <p>Выдан: Институт инновационных психотехнологий, г.Москва</p>
+                        <p>Год получения: 2015</p>
+                    </div>
+                    <div class="edu_item">
+                        <img src="images/tn_2s.png" alt="">
+                        <h4>Чистый язык и Символическое моделирование</h4>
+                        <p>Выдан: Пенни Томпкинс и Джеймс Лоули, г. Москва</p>
+                        <p>Год получения: 2016</p>
+                    </div>
+                    <div class="edu_item">
+                        <img src="images/tn_3s.png" alt="">
+                        <h4>Социальная панорама в Коучинге и Психотерапии</h4>
+                        <p>Выдан: Лукаса Деркс, г. Москва</p>
+                        <p>Год получения: 2016</p>
+                    </div>
+                    <div class="edu_item">
+                        <img src="images/tn_4s.png" alt="">
+                        <h4>Социальная панорама в Коучинге и Психотерапии<br>Высокопродуктивность. Секреты успеха</h4>
+                        <p>Выдан: Центр НЛП в Образовании, г. Москва</p>
+                        <p>Год получения: 2016</p>
+                    </div>
+                    <div class="edu_item">
+                        <img src="images/tn_5s.png" alt="">
+                        <h4>Интеграция консалтинга. Генеральный модуль консультирования </h4>
+                        <p>Выдан: Институт инновационных психотехнологий, г.Москва</p>
+                        <p>Год получения: 2016</p>
+                    </div>
+                    <div class="edu_item">
+                        <img src="images/tn_6s.png" alt="">
+                        <h4>Практикующий специалист по нейролингвистическому программированию</h4>
+                        <p>Выдан: Институт инновационных психотехнологий, г.Москва</p>
+                        <p>Год получения: 2016</p>
+                    </div>
+                    <div class="edu_item">
+                        <img src="images/tn_7s.png" alt="">
+                        <h4>Интегральное нейропрограммирование. Консультант по личному благополучию</h4>
+                        <p>Выдан: Институт инновационных психотехнологий, г.Москва</p>
+                        <p>Год получения: 2016</p>
+                    </div>
+                    <div class="edu_item">
+                        <img src="images/tn_8s.png" alt="">
+                        <h4>Интеграция консалтинга. Генеральный модуль консультирования </h4>
+                        <p>Выдан: Институт инновационных психотехнологий, г.Москва</p>
+                        <p>Год получения: 2016</p>
+                    </div>
+                    <div class="edu_item">
+                        <img src="images/tn_9s.png" alt="">
+                        <h4>Соматопсихология и психокатализ</h4>
+                        <p>Выдан: Институт психокатализа</p>  
+                        <p>Год получения: 2016</p>
+                    </div>
+                </div>
             </div>
-        </section> -->
+        </section>
         <section class="methods">
             <div class="container">
                 <h2 class="section_title">Эффективные методики, которые я использую</h2>
@@ -250,21 +323,42 @@
                 </form>                 -->
             </div>
         </section>
-        <!-- <section class="review">
+        <section class="review">
             <div class="container">
                 <h2 class="section_title">Истории и отзывы клиентов</h2>
                 <p class="review_subtitle">Все истории приводятся под вымышленными именами. Истории и отзывы публикуются с согласия клиентов.</p>
- 
-                <a href="" class="btn"></a>                
+                    <div class="review_slider">
+                        <div class="review_item">
+                            <h4>Анастасия</h4>
+                            <p class="subitem">Для достижения результата понадобилась 4-часовая skype-консультация.</p>
+                            <p class="review_text">У многих случается ситуация, когда ты привязываешься к человеку и тебе очень тяжело его отпустить, а ему, наоборот, легко с тобой попрощаться. Вот в этот момент и начинается самое тяжёлое: ты уходишь в себя, мысли все больше и больше поглощают и приходит понимание того, что все когда-либо тебя радовало, уже отравляет жизнь. Мне посоветовали психолога Андрея, и я, не думая, сразу позвонила и договорилась о консультации. Изначально было чувство неловкости (возможно, потому что я первый раз была у психолога). Но оно быстро прошло, и я была искренней. Иногда казалось, что отвечать на некоторые вопросы сложно и ответа ты не знаешь (это даже сложно признать). Андрей задавал такие вопросы и представлял такие моменты, проживая которые, я начинала расцветать, однако были и такие, которые заставляли чувствовать ком в горле. Но то, что я чувствовала в конце нашего сеанса, даже сложно описать словами, это как будто эйфория, легкость и свобода, а все эмоции и переживания, которые были до консультации, просто исчезли.  Хочу сказать одно, Андрей – мастер своего дела! Если у Вас случаются подобного рода ситуации, не закапывайте их внутрь, а лучше разберитесь сразу. И жизнь снова будет в радость!</p>
+                        </div>
+                        <div class="review_item">
+                            <h4>Ольга</h4>
+                            <p class="subitem">Для достижения результата понадобилась 3-часовая skype-консультация.</p>
+                            <p class="review_text">Совсем недавно переживала очень болезненный развод, думала, что моя жизнь уже окончена, и я уже никогда не встану на ноги. Переживала тяжелую депрессию, полностью забросила работу, себя и опустила руки. Обратилась за помощью к Андрею. Очень удобно, что можно было консультироваться по скайпу, не нужно было никуда ездить. Думала, что понадобиться несколько месяцев, чтобы прийти в себя, но оказалось, что за три часа Андрей нашел нужные слова и вселил в меня веру в себя. Очень благодарна ВАМ!</p>
+                        </div>
+                        <div class="review_item">
+                            <h4>Яна</h4>
+                            <p class="subitem">Для достижения результата понадобилась 4-часовая skype-консультация.</p>
+                            <p class="review_text">Для меня Андрей стал находкой. Была проблема пониженной самооценки и неуверенности в себе. Пробовала работать с разными психологами. Честно, помогало только в начале, после все возвращалось обратно. У Андрея совсем другой подход к проблеме. Ему удалось найти причину моей проблемы, а после уже все само собой произошло. Я как будто заново переосмыслила свою жизнь. Столько времени, жаль, упустила, а годы то идут. Уже прошло больше месяца, и я обрела новую жизнь. Сама не ожидала, что онлайн методика может быть намного эффективней общения в реалии. Надеюсь, моя история поможет изменить жизнь к лучшему.</p>
+                        </div>
+                        <div class="review_item">
+                            <h4>Ирина</h4>
+                            <p class="subitem">Для достижения результата понадобилось 2 skype-консультации по 2  часа.</p>
+                            <p class="review_text">У меня была паническая боязнь собак. В детстве укусила собака, а ужас и страх оставался. Собак я шарахалась, завидев за версту. Что я только ни делала – ничего не помогало. Случайно при разговоре с подругой, узнала про этого замечательного психолога и решила к нему обратиться. Ни капли не пожалела об этом. Неожиданно быстро для меня, ему удалось справиться с моими проблемами – понадобилось всего несколько сеансов. При этом для меня было очень комфортно, что сеансы проходили в удобное для меня время.</p>
+                        </div>
+                    </div>
+                <a href="" class="btn">Поделиться своей историей</a>                
             </div>
-        </section> -->
+        </section>
         <section class="general">
             <div class="container">
                 <h2 class="section_title">Online консультация профессионального психолога Андрея Шершеня</h2>
                 <p class="subtitle">Эффективная помощь в решении волнующих жизненных ситуаций или возврат денег</p>
                 <h3 class="form_title">Давайте познакомимся</h3>
                 <form action="">
-                    <h3 class="form_title">Запишитесь на первую<span class="form_title-highlighted">бесплатную консультацию</span></h3>
+                    <h3 class="form_title">Запишитесь на первую <span class="form_title-highlighted">бесплатную консультацию</span></h3>
                     <p class="form_subtitle">Для этого заполните форму ниже</p>
                     <input type="hidden" name="formid" value="indexform1">
                     <label for=""></label>
@@ -287,10 +381,77 @@
         </section>
     </div>
     
-    <div class="footer">
-        <div class="container">
-
-        </div>
+    <div class="mobile_footer">
+            <div class="container">
+                    <div class="logo_container">
+                        <img src="./images/logo.png" alt="" class="logo">
+                        <p class="logo_text">Online консультация психолога по России и Казахстану</p>
+                    </div>
+                    <div class="contacts_container">
+                        <div class="number">
+                            <img src="./images/rus.png" alt="">
+                            <a href="tel:+79160657403">+79160657403</a>
+                        </div>
+                        <div class="skype">
+                            <img src="./images/skype.png" alt="">
+                            <a href="https://join.skype.com/invite/ejbAssPMkamj">an.shershen</a>
+                        </div>
+                    </div>
+                </div>
     </div>
+
+    <script type="text/javascript" src="./scripts/slick/slick.min.js"></script>
+    <script>
+        $('.edu_slider').slick({
+        responsive: [
+            {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                centerPadding: '40px',
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true
+            }
+            },
+            {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                centerPadding: '40px',
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true
+            }
+            }
+        ]           
+        })
+        $('.review_slider').slick({
+        responsive: [
+            {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                centerPadding: '40px',
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true,
+                adaptiveHeight: true
+            }
+            },
+            {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                centerPadding: '40px',
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true,
+                adaptiveHeight: true
+            }
+            }
+        ]           
+        })
+    </script>
 </body>
 </html>
